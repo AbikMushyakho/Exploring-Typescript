@@ -1,0 +1,14 @@
+Src folder holds all typescript files 
+dist folder holds all javascript files
+
+Using outDir:
+./dist - sets the dist folder as the output foler of all compiled javascript files
+- folder structure are also be the same as in source folder
+
+Using rootDir:
+./src - sets the src folder as the input foler of all typescript files
+
+RemoveComments:true : Removes all the comment in compiled javascript files
+NoEmit::true checks any typescript error without compiling any javascript file
+noEmitOnError:true Not to generate javascript files if typescript files contains any error
+                -if any file fails to comile, no files will be emitted.

@@ -1,0 +1,8 @@
+To summarize:
+- basic implementation in html and seeing basic HTML input types like string and number
+- object array and enum types and use cases
+- function types and callabacks 
+-function return types like void,unknown ,never
+- custom union and alias types like:
+        -typechecking by providing custom parameters on functions that detect what type of data are coming;
+        -eg in file custom_union_alias.ts files
