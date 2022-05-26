@@ -12,3 +12,11 @@ RemoveComments:true : Removes all the comment in compiled javascript files
 NoEmit::true checks any typescript error without compiling any javascript file
 noEmitOnError:true Not to generate javascript files if typescript files contains any error
                 -if any file fails to comile, no files will be emitted.
+
+Class inheritance
+absctact Class cannot be instanciated;
+-> Base lasss must contain the function in absctact Class;
+
+Conclusion
+Classes ,Access modifieer= > private protected public, Abstract Classes
+Methods: Abstract static
